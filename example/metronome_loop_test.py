@@ -1,11 +1,3 @@
-# metronome-loop
-
-Library for easy timing without `time.sleep()`
-
-
-
-## Example use
-````py
 import metronome_loop
 
 
@@ -24,5 +16,3 @@ while True:
 
     if ten_sec.loop():
         print("ten_sec")
-
-````
